@@ -34,7 +34,6 @@ const Lists = styled.ul`
 const ListItem = styled.li`
   margin: 0 1.5% 0 0;
   white-space: nowrap;
-  font-weight: 400;
 `;
 
 export default function Header(props: any) {
