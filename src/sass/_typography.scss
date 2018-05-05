@@ -1,0 +1,45 @@
+// section title
+h2 {
+  border-bottom: 1px solid $black;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 1rem 0 .5rem;
+  padding-bottom: 0.1rem;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $break-md) {
+    font-size: 1.5rem;
+  }
+
+  @media print {
+    font-size: 1rem;
+  }
+}
+
+h3,
+h4 {
+  font-size: 1rem;
+  display: inline-block;
+  margin-right: 1%;
+
+  @media (min-width: $break-md) {
+    font-size: 1.25rem;
+  }
+
+  @media print {
+    font-size: 1rem;
+  }
+}
+
+h3 {
+  font-weight: 300;
+
+  &.heading {
+    font-weight: 700;
+  }
+
+  &.subheading {
+    font-style: italic;
+  }
+}

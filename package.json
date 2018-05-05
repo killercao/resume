@@ -1,0 +1,32 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "homepage": "https://kkweon.gitlab.io/resume",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "^1.1.4",
+    "styled-components": "^3.2.6"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar --include-path ./node_modules/ ./src/ -o ./src/",
+    "watch-css": "yarn build-css --watch --recursive",
+    "start": "yarn watch-css & react-scripts start",
+    "build": "NODE_ENV=production yarn run build-css && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-flowtype": "^2.46.3",
+    "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.71.0",
+    "node-sass-chokidar": "^1.2.2",
+    "normalize.css": "^8.0.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}

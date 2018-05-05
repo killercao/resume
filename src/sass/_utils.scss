@@ -1,0 +1,30 @@
+$break-md: 600px;
+$break-lg: 1200px;
+$break-xl: 1600px;
+
+$link-color: #3a5fcd;
+$black: #000;
+$gray: lighten($black, 50%);
+$hover: darken($link-color, 10%);
+
+.icon-small {
+  margin-right: 0.5em;
+}
+
+
+.text-muted {
+  letter-spacing: 1px;
+  color: $gray;
+}
+
+@function pow($number, $exponent) {
+  $value: 1;
+
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  }
+
+  @return $value;
+}
