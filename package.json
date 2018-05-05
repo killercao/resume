@@ -1,7 +1,7 @@
 {
   "name": "resume",
-  "version": "0.1.0",
-  "homepage": "https://kkweon.gitlab.io/resume",
+  "version": "1.0.0",
+  "homepage": "https://github.com/killercao/resume",
   "private": true,
   "dependencies": {
     "react": "^16.3.2",
@@ -14,6 +14,7 @@
     "watch-css": "yarn build-css --watch --recursive",
     "start": "yarn watch-css & react-scripts start",
     "build": "NODE_ENV=production yarn run build-css && react-scripts build",
+    "github": "ghp-import -p build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
