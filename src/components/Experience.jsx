@@ -24,7 +24,11 @@ const Header = styled.div`
 `;
 
 const Container = styled.div`
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+
+    @media print {
+        margin-bottom: 0.7rem;
+    }
 `;
 
 const ExperienceHelper = ({ data }: { data: Exp }) => {
