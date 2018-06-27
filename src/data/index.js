@@ -1,5 +1,5 @@
 // Profile
-export const profile = `Dedicated CPA with 5+ years experience in public and private sectors. Prepared and audited financial reports and statements for 3,000+ customers in a timely manner in accordance with US GAAP and its internal controls. Proactively identified issues including frauds and improved customers' accounting processes.`;
+export const profile = `Dedicated CPA with 5+ years experience in public and private sectors. Dedicated auditing professional with the accomplished ability to work independently and as a team member to successfully achieve project goals and objective Prepared and audited financial reports and statements for 3,000+ customers in a timely manner in accordance with US GAAP and its internal controls. Proactively identified issues including frauds and improved customers' accounting processes.`;
 
 export const skills = [
   "Tools/Software: Oracle, MS Office, Quickbook NAV",
@@ -17,10 +17,14 @@ export const experiences = [
     location: "San Francisco, CA",
     dates: "Sep 2014 - Current",
     descriptions: [
-      "Prepared and audited financial statements for 3,000+ customers",
-      "Planned and led data mining and integrity reviews, fraud evaluation and analysis",
-      "Worked in a team of three to solve problems and conduct audit and review works at the client site",
-      "Communicated with clients and proactively sought for timely feedback in order to maximize client satisfaction",
+      "Conduct financial statement audit on private clients in non-profit industry",
+      "Manage team activities and delegate assignments to ensure timely issuance of audit report",
+      "Coordinate with team members and client personnel to resolve complex accounting issues/audit findings",
+      "Communicate issues or status of projects with client personnel and team management ",
+      "Perform accounting research to solve issues that arise during the course of audit engagement using the Financial Accounting Standards Board (FASB)Accounting Standards Codification Manual",
+      "Prepare and analyze financial statements using accepted accounting and statistical procedures to determine audit conclusions",
+      "Prepare detailed reports and memorandums on audit findings",
+      "Examine records and interview client staff to ensure recorded transactions are in accordance with Generally Accepted Accounting Principles (GAAP)",
     ],
   },
   {
@@ -44,6 +48,8 @@ export const experiences = [
       "Reconcile for sales reports for a high volume of activity and in multi-currency",
       "Assisted in preparing financial statement and audit",
       "Assisted in manager in determining company’s budget proposal and prepared variance analysis against actual expenditures",
+
+      // fixme
       "Phasellus at dui in ligula mollis ultricies",
     ],
   },
@@ -56,6 +62,8 @@ export const experiences = [
     descriptions: [
       "Process accounts payable, maintained up-to-date vendor statements to ensure timeliness and completeness",
       "Compile data and prepare monthly reports and statements",
+
+      // fixme
       "Pellentesque dapibus suscipit ligula",
       "In id erat non orci commodo lobortis",
     ],
