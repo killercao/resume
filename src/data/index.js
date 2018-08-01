@@ -13,18 +13,16 @@ export const projects = [];
 export const experiences = [
   {
     company: "Levy Erlanger & Company, CPAs",
-    title: "Staff Accountant",
+    title: "Staff Accountant (Auditor)",
     location: "San Francisco, CA",
     dates: "Sep 2014 - Current",
     descriptions: [
-      "Conduct financial statement audit, review and compilation on small and middle size companies in private industry",
-      "Manage team activities and delegate assignments to ensure timely issuance of an audit report",
-      "Coordinate with team members and client personnel to resolve complex accounting issues/audit findings",
-      "Communicate issues or status of projects with client personnel and team management, and propose adjustment journal entries",
-      "Perform accounting research to solve issues that arise during the course of audit engagement using the Financial Accounting Standards Board(FASB) Accounting Standards Codification Manual",
-      "Prepare and analyze financial statements using accepted accounting and statistical procedures to determine audit conclusions",
-      "Prepare detailed reports and memorandums on audit findings",
-      "Examine records and interview client staff to ensure recorded transactions are in accordance with Generally Accepted Accounting Principles(GAAP)",
+      "Conduct financial statement audit, review and compilation and prepared journal entries to ensure all information is presented in accordance with U.S GAAP",
+      "Reviewed year-end bank reconciliation and identified and resolved all variances",
+      "Reviewed details analyses of fixed asset general leger accounts and depreciation expenditure on annual basis",
+      "Reviewed revenue recognition to ensure all records in accordance with the revenue recognition standard",
+      "Review all payroll,vacation hours,401k records and identified discrepancies and processed necessary corrections ",
+      "Provide accounting technical support and financial data analysis to assist client improving internal control and business process ",
     ],
   },
   {
@@ -50,7 +48,6 @@ export const experiences = [
       "Assisted in manager in determining company’s budget proposal and prepared variance analysis against actual expenditures",
     ],
   },
-
   {
     company: "Ivy Child International",
     title: "Non-profit Organization Accounting Internship",
