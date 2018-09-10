@@ -32,9 +32,14 @@ body {
 
 .app {
   border: 1px solid $black;
-  margin: 5% auto;
-  padding: 2%;
+  margin: 5rem auto;
+  padding: 2rem;
   width: 90%;
+
+  @media print {
+    margin: 3rem auto;
+    padding: 1rem;
+  }
 
   @media screen and (min-width: $break-lg) {
     border: 1px solid transparent;

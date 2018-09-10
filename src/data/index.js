@@ -1,7 +1,6 @@
 // Profile
-export const profile = "";
 export const skills = [
-  "Tools/Software: Oracle 11 , Excel ( V-lookup & PivotTables), MS Office,QuickBooks, Case-Ware,",
+  "Tools/Software: Oracle 11, Excel (VLookup & Pivot Table), QuickBooks, Case-Ware,",
 ];
 
 // Projects

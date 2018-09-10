@@ -8,6 +8,10 @@ const H1 = styled.h1`
   margin: 1rem 0;
   font-size: 3rem;
 
+  @media print {
+    margin: 1rem 0 0.7rem;
+  }
+
   @media (max-width: 600px) {
     letter-spacing: 2px;
     font-size: 2rem;
