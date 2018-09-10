@@ -40,7 +40,7 @@ export default function Header(props: any) {
   return (
     <div style={{ width: "100%" }}>
       <H1>
-        JIA CAO <span className="text-muted">(CPA)</span>
+        Jia Cao, <span className="text-muted">CPA</span>
       </H1>
       <Lists>
         <ListItem>

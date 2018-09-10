@@ -11,7 +11,6 @@ export default function App(prop: any) {
   return (
     <div className="app">
       <Header />
-      <Summary data={profile} />
       <Experience data={experiences} />
       <Educations data={educations} />
       <Skills skills={skills} />

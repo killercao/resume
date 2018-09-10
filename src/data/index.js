@@ -1,9 +1,7 @@
 // Profile
-export const profile = `CPA with 5+ experience in public and private sectors. Dedicated auditing professional with the accomplished ability to work independently and as a team member to successfully achieve project goals and objective. Proactively identified issues including frauds and improved customers' accounting processes.`;
-
+export const profile = "";
 export const skills = [
-  "Tools/Software: Oracle, MS Office, Quickbook NAV, Caseware",
-  "License/Certification: Certified Public Accountant, California Board of Accountancy, 2016",
+  "Tools/Software: Oracle 11 , Excel ( V-lookup & PivotTables), MS Office,QuickBooks, Case-Ware,",
 ];
 
 // Projects
@@ -13,16 +11,18 @@ export const projects = [];
 export const experiences = [
   {
     company: "Levy Erlanger & Company, CPAs",
-    title: "Staff Accountant (Auditor)",
+    title: "Senior  Accountant ",
     location: "San Francisco, CA",
     dates: "Sep 2014 - Current",
     descriptions: [
-      "Conduct financial statement audit, review and compilation and prepared journal entries to ensure all information is presented in accordance with U.S GAAP",
-      "Reviewed year-end bank reconciliation and identified and resolved all variances",
-      "Reviewed details analyses of fixed asset general leger accounts and depreciation expenditure on annual basis",
-      "Reviewed revenue recognition to ensure all records in accordance with the revenue recognition standard",
-      "Review all payroll,vacation hours,401k records and identified discrepancies and processed necessary corrections ",
-      "Provide accounting technical support and financial data analysis to assist client improving internal control and business process ",
+      "Assist clients in preparing quarterly and annual financial statements in accordance with Generally Accepted Accounting Principle",
+      "Revise and reperform bank reconciliation to identify and resolved material variances",
+      "Test revenue recognition to ensure records are in accordance with ASC606 ",
+      "Analyse fix asset register and annual depreciation expenditures",
+      "Understand , evaluate, and test client's internal control system to ensure its compliance with ",
+      "Perform analytical procedure on expected and unexpected variances in account balances or class of transactions  ",
+      "Test documentation supporting account balances , class of transactions , and communication auditor findings with supervisor and colleagues on daily basis.  ",
+      "Train and mentor new employees to work in a fast paced, technical, and customer  service focused environment",
     ],
   },
   {
@@ -31,33 +31,25 @@ export const experiences = [
     location: "San Francisco, CA",
     dates: "Jul 2013 - Jun 2014",
     descriptions: [
-      "Prioritized and organized work assignment of approximately 500+ accounts to meet deadlines",
-      "Resolved approximately 90% of stale receivable over 30+ days past due. ",
-      "Provided internal and external support with updated reports and current notes using company databases and accounting software",
-      "Prepare accounts receivable aging analytical report to management and prepare billing adjustment journal entries",
+      "Generated various bills in the system",
+      "Processed high volume credit card and wire payments and performed weekly reconciliation",
+      "Communicated promptly on collections with international and domestic customers of $10M+ USD ",
+      "Ran weekly A/R aging report to ensure accurate balances and payment to follow -up",
+      "Prepared credit memorandum and journal entries",
+      "Identified and implemented the new billing procedures to improve collection period",
+      "Supported management in completing various projects, analysis requests and other tasks assigned",
     ],
   },
   {
-    company: "China Southern Airline, Hunan Branch",
-    title: "Staff Accounting Internship",
-    location: "Hunan, China",
+    company: "China Southern Airline",
+    title: "Staff Accountant/ Intern ",
+    location: "Changsha, China",
     dates: "Jan 2013 - Jun 2013",
     descriptions: [
-      "Assisted with the  year-end audit by  providing support documents for audit selections",
-      "Assisted senior accountants preparing bank reconciliations for different branch",
-      "Assisted in manager in determining company’s budget proposal and prepared variance analysis against actual expenditures",
-    ],
-  },
-  {
-    company: "Ivy Child International",
-    title: "Non-profit Organization Accounting Internship",
-    location: "Berkeley, CA",
-    dates: "Jun 2012 - Dec 2012",
-    descriptions: [
-      "Collected and documented relevant accounting data for management",
-      "Generated reports and spreadsheets detailing activities trends and forecasts",
-      "Support management by providing accounting insight and technical knowledge in a meeting",
-      "Reviewed reports and financial statements to assess data integrity",
+      "Assisted senior accountant to prepare reconciliation for key balance sheet accounts and expense accounts",
+      "Maintained supporting schedules including fix assets depreciation schedules, prepaid schedules, long-term debt schedules",
+      "Processed payments received from different customers and audited for accuracy",
+      "Prepared  monthly Budget vs. Actual report by department ",
     ],
   },
 ];
